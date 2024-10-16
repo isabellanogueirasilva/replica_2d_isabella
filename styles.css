@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.header .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.carousel {
+    margin: 20px 0;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9ecef;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.products, .categories {
+    padding: 20px;
+}
+
+.products h2, .categories h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product-list, .category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product, .category {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Width for product and category boxes */
+}
+
+.product img, .category img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    color: #d9534f; /* Bootstrap danger color */
+}
